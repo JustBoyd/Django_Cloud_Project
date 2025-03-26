@@ -1,1 +1,1 @@
-
+Cousera Django SQL Project. 
