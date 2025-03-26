@@ -1,0 +1,11 @@
+  applications:
+  - name: onlinecourse
+    routes:
+      - route: django.jdblueprint.com
+    memory: 128M
+    buildpack: python_buildpack
+  - name: onlinecourse-nginx
+    routes:
+      - route: django.jdblueprint.com/static
+    memory: 128M
+    buildpack: staticfile_buildpack
